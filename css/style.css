@@ -1,0 +1,93 @@
+body {
+    max-width: 1550px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+header {
+    background-image: url(../img/bakgrund_opt.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 30px rbga(0,0,0,0.1);
+    height: 550px; 
+
+}
+h2 {
+    font-size: 50px;
+}
+.topp {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.rubriker h1 {
+font-size: 70px;
+color: rgba(250, 249, 249, 0.897);
+}
+.rubriker p {
+    font-size: 35px;
+    color: rgba(250, 249, 249, 0.897);
+    
+}
+nav {
+    margin-top: 30px;
+}
+nav a {
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(250, 249, 249, 0.897); 
+}
+div.text {
+   text-align: center;
+   font-size: 40px;
+   color: rgb(3, 21, 46);
+   
+}
+
+
+.flygplanen {
+    display: grid;
+    width: 700px;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 10px;
+    justify-content: space-evenly;
+}
+
+img
+{
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px rgba(12, 0, 0, 0.3);
+    
+}
+h3 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(3, 21, 46);
+    margin-bottom: -10px;
+    
+}
+p {
+    text-align:center;
+    color: rgb(3, 21, 46);
+    font-style: italic;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#kallor a {
+    color: rgb(3, 21, 46);
+    text-decoration: underline;
+}
+
+.flygplanen h3 {
+    margin-top: -3px;
+
+}
+.flygplanen p {
+    width: 700px;
+}
